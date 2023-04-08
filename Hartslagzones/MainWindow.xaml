@@ -1,0 +1,22 @@
+﻿<Window x:Class="Hartslagzones.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Hartslagzones"
+        mc:Ignorable="d"
+        Title="Hartslagzones calculator" Height="700" Width="500">
+    <Grid>
+        <StackPanel Margin="20">
+            <TextBlock FontSize="36px" Padding="20px">Hartslagzones calculator</TextBlock>
+            <TextBlock Padding="20px 0 0 0">Leeftijd:</TextBlock>
+            <TextBox x:Name="LeeftijdTextBox" VerticalAlignment="Center" Margin="20" Padding="10px" TextChanged="LeeftijdTextBox_TextChanged"></TextBox>
+            <TextBlock x:Name="Zone5" Margin="20 20 20 0" Padding="20">Zone 5:</TextBlock>
+            <TextBlock x:Name="Zone4" Margin="20 0 20 0" Padding="20">Zone 4:</TextBlock>
+            <TextBlock x:Name="Zone3" Margin="20 0 20 0" Padding="20">Zone 3:</TextBlock>
+            <TextBlock x:Name="Zone2" Margin="20 0 20 0" Padding="20">Zone 2:</TextBlock>
+            <TextBlock x:Name="Zone1" Margin="20 0 20 20" Padding="20">Zone 1:</TextBlock>
+            <TextBlock x:Name="Warning" Height="90px" Margin="20" Padding="20 10 140 10" TextWrapping="Wrap">De berekende zones zijn een algemene benadering en kunnen individueel afwijken. Controleer een sportarts om je persoonlijke hartslagzones precies te meten.</TextBlock>
+        </StackPanel>
+    </Grid>
+</Window>
